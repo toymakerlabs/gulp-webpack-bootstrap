@@ -6,6 +6,9 @@ Webpack2 runs alongside gulp via a middleware component and builds the front-end
 ### Compiling
 1. `npm install` install dependencies using NPM from package.json
 
-2. `gulp  develop` initiates the gulp dev task, which starts webpack dev server and compiles the markup, and copies imaages to the dist/ directory.
+2. `gulp  develop` initiates the gulp dev task, which starts webpack dev server and compiles the markup, and copies images to the dist/ directory.
 
 3. `gulp production` runs the production gulp and wepback config. The end result is a compressed version in the dist/ directory.
+
+### Notes
+Breaking changes in release of Bootstrap4. Froze support for bootstrap@4.0.0-alpha.6. Stay tuned for new version with support for Bootstrap4 Beta. 
